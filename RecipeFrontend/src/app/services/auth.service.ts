@@ -19,7 +19,7 @@ export class AuthService {
   });
   loggedIn$ = this.loggedIn.asObservable();
 
-  private baseUrl = 'http://127.0.0.1:8000/api/';
+  private baseUrl = 'https://angular-laravel-deploy-show.onrender.com/api/';
 
   private httpOptions = {
     headers: new HttpHeaders({
